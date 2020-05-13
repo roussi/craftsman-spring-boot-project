@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ProductApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ProductApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.aroussi.product.svc.html">com.aroussi.product.svc</a> &gt; ProductApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.276s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testFindProductStartingWith()</td>
+<td class="success">0.276s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>18:46:08.580 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:46:08.591 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:46:08.617 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.aroussi.product.svc.ProductApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:46:08.629 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.aroussi.product.svc.ProductApplicationTests], using SpringBootContextLoader
+18:46:08.633 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.aroussi.product.svc.ProductApplicationTests]: class path resource [com/aroussi/product/svc/ProductApplicationTests-context.xml] does not exist
+18:46:08.633 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.aroussi.product.svc.ProductApplicationTests]: class path resource [com/aroussi/product/svc/ProductApplicationTestsContext.groovy] does not exist
+18:46:08.634 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.aroussi.product.svc.ProductApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:46:08.634 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.aroussi.product.svc.ProductApplicationTests]: ProductApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:46:08.674 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.aroussi.product.svc.ProductApplicationTests]
+18:46:08.720 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/aroussi/projects/lab/craftsman-boot-project/build/classes/java/main/com/aroussi/product/svc/ProductApplication.class]
+18:46:08.721 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.aroussi.product.svc.ProductApplication for test class com.aroussi.product.svc.ProductApplicationTests
+18:46:08.795 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.aroussi.product.svc.ProductApplicationTests]: using defaults.
+18:46:08.796 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+18:46:08.807 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+18:46:08.816 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1dc64df0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@601a4794, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1a9b8537, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a5ba2ac, org.springframework.test.context.transaction.TransactionalTestExecutionListener@55dc3da, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@37491202, org.springframework.test.context.event.EventPublishingTestExecutionListener@71bd8be1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60419b8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6d2c49b1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@120a9f14, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ff5ec37, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@291aeda8]
+18:46:08.821 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@7e986809 testClass = ProductApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [ReactiveWebMergedContextConfiguration@25b98534 testClass = ProductApplicationTests, locations = '{}', classes = '{class com.aroussi.product.svc.ProductApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@427e87e5, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3856036c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@14d82baa, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@71e3704e, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@187b5479, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@add83de5, org.springframework.boot.test.context.SpringBootTestArgs@1], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+18:46:08.858 [Test worker] DEBUG org.testcontainers.utility.TestcontainersConfiguration - Testcontainers configuration overrides will be loaded from file:/Users/aroussi/.testcontainers.properties
+18:46:08.898 [Test worker] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+18:46:09.180 [ducttape-0] DEBUG org.testcontainers.dockerclient.DockerClientProviderStrategy - Pinging docker daemon...
+18:46:09.206 [ducttape-0] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: 
+18:46:09.577 [Test worker] INFO org.testcontainers.dockerclient.UnixSocketClientProviderStrategy - Accessing docker with local Unix socket
+18:46:09.577 [Test worker] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+18:46:09.577 [Test worker] DEBUG org.testcontainers.dockerclient.DockerClientProviderStrategy - Checking Docker OS type for local Unix socket (unix:///var/run/docker.sock)
+18:46:09.579 [Test worker] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: 
+18:46:09.688 [Test worker] INFO org.testcontainers.DockerClientFactory - Docker host IP address is localhost
+18:46:09.689 [Test worker] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: 
+18:46:09.710 [Test worker] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: 
+18:46:09.731 [Test worker] INFO org.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 19.03.8
+  API Version: 1.40
+  Operating System: Docker Desktop
+  Total Memory: 1991 MB
+18:46:09.731 [Test worker] DEBUG org.testcontainers.DockerClientFactory - Ryuk is enabled
+18:46:09.734 [Test worker] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: ListImagesCmdImpl[imageNameFilter=quay.io/testcontainers/ryuk:0.2.3,showAll=false,filters=com.github.dockerjava.core.util.FiltersBuilder@0]
+18:46:09.786 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - Looking up auth config for image: quay.io/testcontainers/ryuk:0.2.3 at registry: quay.io
+18:46:09.787 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - RegistryAuthLocator has configFile: /Users/aroussi/.docker/config.json (exists) and commandPathPrefix: 
+18:46:09.790 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - registryName [quay.io] for dockerImageName [quay.io/testcontainers/ryuk:0.2.3]
+18:46:09.790 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - Executing docker credential provider: docker-credential-osxkeychain to locate auth config for: quay.io
+18:46:09.799 [Test worker] DEBUG org.testcontainers.shaded.org.zeroturnaround.exec.ProcessExecutor - Executing [docker-credential-osxkeychain, get].
+18:46:09.807 [Test worker] DEBUG org.testcontainers.shaded.org.zeroturnaround.exec.ProcessExecutor - Started Process[pid=76462, exitValue=&quot;not exited&quot;]
+18:46:09.842 [WaitForProcess-Process[pid=76462, exitValue=&quot;not exited&quot;]] DEBUG org.testcontainers.shaded.org.zeroturnaround.exec.WaitForProcess - Process[pid=76462, exitValue=1] stopped with exit code 1
+18:46:09.845 [Test worker] DEBUG org.testcontainers.shaded.org.zeroturnaround.exec.ProcessExecutor - Executing [docker-credential-osxkeychain, get].
+18:46:09.847 [Test worker] DEBUG org.testcontainers.shaded.org.zeroturnaround.exec.ProcessExecutor - Started Process[pid=76463, exitValue=&quot;not exited&quot;]
+18:46:09.868 [WaitForProcess-Process[pid=76463, exitValue=&quot;not exited&quot;]] DEBUG org.testcontainers.shaded.org.zeroturnaround.exec.WaitForProcess - Process[pid=76463, exitValue=1] stopped with exit code 1
+18:46:09.869 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - Got credentials not found error message from docker credential helper - credentials not found in native keychain
+18:46:09.869 [Test worker] INFO org.testcontainers.utility.RegistryAuthLocator - Credential helper/store (docker-credential-osxkeychain) does not have credentials for quay.io
+18:46:09.870 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - No matching Auth Configs - falling back to defaultAuthConfig [null]
+18:46:09.870 [Test worker] DEBUG org.testcontainers.dockerclient.auth.AuthDelegatingDockerClientConfig - Effective auth config [null]
+18:46:09.886 [Test worker] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: com.github.dockerjava.core.command.CreateContainerCmdImpl@5359b5f0[name=testcontainers-ryuk-6c5b6d20-9cba-4e02-911f-d0a5c608f07d,hostName=&lt;null&gt;,domainName=&lt;null&gt;,user=&lt;null&gt;,attachStdin=&lt;null&gt;,attachStdout=&lt;null&gt;,attachStderr=&lt;null&gt;,portSpecs=&lt;null&gt;,tty=&lt;null&gt;,stdinOpen=&lt;null&gt;,stdInOnce=&lt;null&gt;,env=&lt;null&gt;,cmd=&lt;null&gt;,healthcheck=&lt;null&gt;,argsEscaped=&lt;null&gt;,entrypoint=&lt;null&gt;,image=quay.io/testcontainers/ryuk:0.2.3,volumes=com.github.dockerjava.api.model.Volumes@76071df3,workingDir=&lt;null&gt;,macAddress=&lt;null&gt;,onBuild=&lt;null&gt;,networkDisabled=&lt;null&gt;,exposedPorts=com.github.dockerjava.api.model.ExposedPorts@68761649,stopSignal=&lt;null&gt;,stopTimeout=&lt;null&gt;,hostConfig=HostConfig(binds=[//var/run/docker.sock:/var/run/docker.sock:rw], blkioWeight=null, blkioWeightDevice=null, blkioDeviceReadBps=null, blkioDeviceWriteBps=null, blkioDeviceReadIOps=null, blkioDeviceWriteIOps=null, memorySwappiness=null, nanoCPUs=null, capAdd=null, capDrop=null, containerIDFile=null, cpuPeriod=null, cpuRealtimePeriod=null, cpuRealtimeRuntime=null, cpuShares=null, cpuQuota=null, cpusetCpus=null, cpusetMems=null, devices=null, deviceCgroupRules=null, deviceRequests=null, diskQuota=null, dns=null, dnsOptions=null, dnsSearch=null, extraHosts=null, groupAdd=null, ipcMode=null, cgroup=null, links=[], logConfig=com.github.dockerjava.api.model.LogConfig@18dd0e00, lxcConf=null, memory=null, memorySwap=null, memoryReservation=null, kernelMemory=null, networkMode=null, oomKillDisable=null, init=null, autoRemove=true, oomScoreAdj=null, portBindings=null, privileged=false, publishAllPorts=true, readonlyRootfs=null, restartPolicy=null, ulimits=null, cpuCount=null, cpuPercent=null, ioMaximumIOps=null, ioMaximumBandwidth=null, volumesFrom=null, mounts=null, pidMode=null, isolation=null, securityOpts=null, storageOpt=null, cgroupParent=null, volumeDriver=null, shmSize=null, pidsLimit=null, runtime=null, tmpFs=null, utSMode=null, usernsMode=null, sysctls=null, consoleSize=null),labels={org.testcontainers=true},shell=&lt;null&gt;,networkingConfig=&lt;null&gt;,ipv4Address=&lt;null&gt;,ipv6Address=&lt;null&gt;,aliases=&lt;null&gt;,authConfig=&lt;null&gt;]
+18:46:09.995 [Test worker] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: 49eaf47032289cae784c498f033c196e99af24772add97dfe3645faaf62d54e6
+18:46:10.313 [Test worker] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: 49eaf47032289cae784c498f033c196e99af24772add97dfe3645faaf62d54e6,false
+18:46:10.314 [Test worker] DEBUG com.github.dockerjava.core.exec.InspectContainerCmdExec - GET: com.github.dockerjava.okhttp.OkHttpWebTarget@74e4465e
+18:46:10.388 [testcontainers-ryuk] DEBUG org.testcontainers.utility.ResourceReaper - Sending 'label=org.testcontainers%3Dtrue&amp;label=org.testcontainers.sessionId%3D6c5b6d20-9cba-4e02-911f-d0a5c608f07d' to Ryuk
+18:46:10.391 [testcontainers-ryuk] DEBUG org.testcontainers.utility.ResourceReaper - Received 'ACK' from Ryuk
+18:46:10.391 [Test worker] INFO org.testcontainers.DockerClientFactory - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+18:46:10.391 [Test worker] DEBUG org.testcontainers.DockerClientFactory - Checks are enabled
+18:46:10.391 [Test worker] INFO org.testcontainers.DockerClientFactory - Checking the system...
+18:46:10.391 [Test worker] INFO org.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+18:46:10.393 [Test worker] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: 49eaf47032289cae784c498f033c196e99af24772add97dfe3645faaf62d54e6,&lt;null&gt;,true,&lt;null&gt;,&lt;null&gt;,&lt;null&gt;,&lt;null&gt;,{df,-P},&lt;null&gt;,&lt;null&gt;
+18:46:10.483 [tc-okhttp-stream-643511390] DEBUG com.github.dockerjava.core.command.ExecStartResultCallback - STDOUT: Filesystem           1024-blocks    Used Available Capacity Mounted on
+overlay               61255492  19899112  38215056  34% /
+tmpfs                    65536         0     65536   0% /dev
+tmpfs                  1019452         0   1019452   0% /sys/fs/cgroup
+shm                      65536         0     65536   0% /dev/shm
+/dev/vda1             61255492  19899112  38215056  34% /etc/resolv.conf
+/dev/vda1             61255492  19899112  38215056  34% /etc/hostname
+/dev/vda1             61255492  19899112  38215056  34% /etc/hosts
+overlay                1019452       664   1018788   0% /run/docker.sock
+tmpfs                  1019452         0   1019452   0% /proc/acpi
+tmpfs                    65536         0     65536   0% /proc/kcore
+tmpfs                    65536         0     65536   0% /proc/keys
+tmpfs                    65536         0     65536   0% /proc/timer_list
+tmpfs                    65536         0     65536   0% /proc/sched_debug
+tmpfs                  1019452         0   1019452   0% /sys/firmware
+18:46:10.514 [Test worker] INFO org.testcontainers.DockerClientFactory - ✔︎ Docker environment should have more than 2GB free disk space
+18:46:10.514 [Test worker] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: ListImagesCmdImpl[imageNameFilter=&lt;null&gt;,showAll=false,filters=com.github.dockerjava.core.util.FiltersBuilder@0]
+18:46:10.570 [Test worker] DEBUG org.testcontainers.images.LocalImagesCache - repoTags is null, skipping image: Image(created=1563401663, id=sha256:134e0b3a6e045117b375cf80e9720f8180c8564f45452f8ccca861d9e6c30b2f, parentId=, repoTags=null, size=266686753, virtualSize=266686753)
+18:46:10.570 [Test worker] DEBUG org.testcontainers.images.AbstractImagePullPolicy - Using locally available and not pulling image: postgres:9.6.12
+18:46:10.570 [Test worker] DEBUG &#x1f433; [postgres:9.6.12] - Starting container: postgres:9.6.12
+18:46:10.571 [Test worker] DEBUG &#x1f433; [postgres:9.6.12] - Trying to start container: postgres:9.6.12
+18:46:10.571 [Test worker] DEBUG &#x1f433; [postgres:9.6.12] - Trying to start container: postgres:9.6.12 (attempt 1/1)
+18:46:10.571 [Test worker] DEBUG &#x1f433; [postgres:9.6.12] - Starting container: postgres:9.6.12
+18:46:10.571 [Test worker] INFO &#x1f433; [postgres:9.6.12] - Creating container for image: postgres:9.6.12
+18:46:10.571 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - Looking up auth config for image: postgres:9.6.12 at registry: index.docker.io
+18:46:10.572 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - RegistryAuthLocator has configFile: /Users/aroussi/.docker/config.json (exists) and commandPathPrefix: 
+18:46:10.572 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - registryName [index.docker.io] for dockerImageName [postgres:9.6.12]
+18:46:10.572 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - Executing docker credential provider: docker-credential-osxkeychain to locate auth config for: index.docker.io
+18:46:10.572 [Test worker] DEBUG org.testcontainers.shaded.org.zeroturnaround.exec.ProcessExecutor - Executing [docker-credential-osxkeychain, get].
+18:46:10.575 [Test worker] DEBUG org.testcontainers.shaded.org.zeroturnaround.exec.ProcessExecutor - Started Process[pid=76464, exitValue=&quot;not exited&quot;]
+18:46:10.603 [WaitForProcess-Process[pid=76464, exitValue=&quot;not exited&quot;]] DEBUG org.testcontainers.shaded.org.zeroturnaround.exec.WaitForProcess - Process[pid=76464, exitValue=0] stopped with exit code 0
+18:46:10.604 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - Credential helper/store provided auth config for: index.docker.io
+18:46:10.606 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - found creds store auth config [AuthConfig{username=aroussisvg, password=hidden non-blank value, auth=blank, email=null, registryAddress=index.docker.io, registryToken=blank}]
+18:46:10.606 [Test worker] DEBUG org.testcontainers.utility.RegistryAuthLocator - Cached auth found: [AuthConfig{username=aroussisvg, password=hidden non-blank value, auth=blank, email=null, registryAddress=index.docker.io, registryToken=blank}]
+18:46:10.606 [Test worker] DEBUG org.testcontainers.dockerclient.auth.AuthDelegatingDockerClientConfig - Effective auth config [AuthConfig{username=aroussisvg, password=hidden non-blank value, auth=blank, email=null, registryAddress=index.docker.io, registryToken=blank}]
+18:46:10.610 [Test worker] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: com.github.dockerjava.core.command.CreateContainerCmdImpl@12786210[name=&lt;null&gt;,hostName=&lt;null&gt;,domainName=&lt;null&gt;,user=&lt;null&gt;,attachStdin=&lt;null&gt;,attachStdout=&lt;null&gt;,attachStderr=&lt;null&gt;,portSpecs=&lt;null&gt;,tty=&lt;null&gt;,stdinOpen=&lt;null&gt;,stdInOnce=&lt;null&gt;,env={POSTGRES_USER=aroussi,POSTGRES_PASSWORD=123aze,POSTGRES_DB=panache-db-test},cmd={postgres,-c,fsync=off},healthcheck=&lt;null&gt;,argsEscaped=&lt;null&gt;,entrypoint=&lt;null&gt;,image=postgres:9.6.12,volumes=com.github.dockerjava.api.model.Volumes@4cc7390e,workingDir=&lt;null&gt;,macAddress=&lt;null&gt;,onBuild=&lt;null&gt;,networkDisabled=&lt;null&gt;,exposedPorts=com.github.dockerjava.api.model.ExposedPorts@49a2136f,stopSignal=&lt;null&gt;,stopTimeout=&lt;null&gt;,hostConfig=HostConfig(binds=[], blkioWeight=null, blkioWeightDevice=null, blkioDeviceReadBps=null, blkioDeviceWriteBps=null, blkioDeviceReadIOps=null, blkioDeviceWriteIOps=null, memorySwappiness=null, nanoCPUs=null, capAdd=null, capDrop=null, containerIDFile=null, cpuPeriod=null, cpuRealtimePeriod=null, cpuRealtimeRuntime=null, cpuShares=null, cpuQuota=null, cpusetCpus=null, cpusetMems=null, devices=null, deviceCgroupRules=null, deviceRequests=null, diskQuota=null, dns=null, dnsOptions=null, dnsSearch=null, extraHosts=[], groupAdd=null, ipcMode=null, cgroup=null, links=[], logConfig=com.github.dockerjava.api.model.LogConfig@77634102, lxcConf=null, memory=null, memorySwap=null, memoryReservation=null, kernelMemory=null, networkMode=null, oomKillDisable=null, init=null, autoRemove=null, oomScoreAdj=null, portBindings={}, privileged=null, publishAllPorts=true, readonlyRootfs=null, restartPolicy=null, ulimits=null, cpuCount=null, cpuPercent=null, ioMaximumIOps=null, ioMaximumBandwidth=null, volumesFrom=[], mounts=null, pidMode=null, isolation=null, securityOpts=null, storageOpt=null, cgroupParent=null, volumeDriver=null, shmSize=null, pidsLimit=null, runtime=null, tmpFs=null, utSMode=null, usernsMode=null, sysctls=null, consoleSize=null),labels={org.testcontainers=true, org.testcontainers.sessionId=6c5b6d20-9cba-4e02-911f-d0a5c608f07d},shell=&lt;null&gt;,networkingConfig=&lt;null&gt;,ipv4Address=&lt;null&gt;,ipv6Address=&lt;null&gt;,aliases=&lt;null&gt;,authConfig=AuthConfig(username=aroussisvg, password=Glad201881, email=null, registryAddress=index.docker.io, auth=null, registrytoken=null, identitytoken=null, stackOrchestrator=null)]
+18:46:10.676 [Test worker] INFO &#x1f433; [postgres:9.6.12] - Starting container with ID: 622b531ca8d8060f93b517843f9e3094046db054b9f2cded3e678badb4918136
+18:46:10.676 [Test worker] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: 622b531ca8d8060f93b517843f9e3094046db054b9f2cded3e678badb4918136
+18:46:10.962 [Test worker] INFO &#x1f433; [postgres:9.6.12] - Container postgres:9.6.12 is starting: 622b531ca8d8060f93b517843f9e3094046db054b9f2cded3e678badb4918136
+18:46:10.963 [Test worker] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: 622b531ca8d8060f93b517843f9e3094046db054b9f2cded3e678badb4918136,false
+18:46:10.963 [Test worker] DEBUG com.github.dockerjava.core.exec.InspectContainerCmdExec - GET: com.github.dockerjava.okhttp.OkHttpWebTarget@26acfb5d
+18:46:10.970 [ducttape-0] DEBUG com.github.dockerjava.core.command.AbstrDockerCmd - Cmd: 622b531ca8d8060f93b517843f9e3094046db054b9f2cded3e678badb4918136,false
+18:46:10.970 [ducttape-0] DEBUG com.github.dockerjava.core.exec.InspectContainerCmdExec - GET: com.github.dockerjava.okhttp.OkHttpWebTarget@6b3cfa3
+18:46:11.005 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: The files belonging to this database system will be owned by user &quot;postgres&quot;.
+18:46:11.005 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: creating subdirectories ... ok
+18:46:11.006 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: fixing permissions on existing directory /var/lib/postgresql/data ... ok
+18:46:11.006 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: 
+18:46:11.006 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: Data page checksums are disabled.
+18:46:11.006 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: 
+18:46:11.006 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: The default text search configuration will be set to &quot;english&quot;.
+18:46:11.007 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: The default database encoding has accordingly been set to &quot;UTF8&quot;.
+18:46:11.007 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: The database cluster will be initialized with locale &quot;en_US.utf8&quot;.
+18:46:11.007 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: 
+18:46:11.007 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: This user must also own the server process.
+18:46:11.018 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: selecting default max_connections ... 100
+18:46:11.035 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: selecting default shared_buffers ... 128MB
+18:46:11.035 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: selecting dynamic shared memory implementation ... posix
+18:46:11.465 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: creating configuration files ... ok
+18:46:12.037 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: running bootstrap script ... ok
+18:46:12.442 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: performing post-bootstrap initialization ... ok
+18:46:12.653 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDERR: 
+18:46:12.653 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: 
+18:46:12.653 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT:     pg_ctl -D /var/lib/postgresql/data -l logfile start
+18:46:12.653 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: 
+18:46:12.653 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: Success. You can now start the database server using:
+18:46:12.653 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: 
+18:46:12.654 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDERR: --auth-local and --auth-host, the next time you run initdb.
+18:46:12.654 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDERR: You can change this by editing pg_hba.conf or using the option -A, or
+18:46:12.654 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDERR: WARNING: enabling &quot;trust&quot; authentication for local connections
+18:46:12.654 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: syncing data to disk ... ok
+18:46:12.702 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: waiting for server to start....LOG:  database system was shut down at 2020-05-13 16:46:12 UTC
+18:46:12.714 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: LOG:  autovacuum launcher started
+18:46:12.715 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: LOG:  database system is ready to accept connections
+18:46:12.715 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: LOG:  MultiXact member wraparound protections are now enabled
+18:46:13.687 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT:  done
+18:46:13.687 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: server started
+18:46:14.043 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: CREATE DATABASE
+18:46:14.053 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: 
+18:46:14.054 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+18:46:14.054 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: 
+18:46:14.054 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: 
+18:46:14.066 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: LOG:  shutting down
+18:46:14.066 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: waiting for server to shut down....LOG:  autovacuum launcher shutting down
+18:46:14.066 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: LOG:  aborting any active transactions
+18:46:14.066 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: LOG:  received fast shutdown request
+18:46:14.077 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: LOG:  database system is shut down
+18:46:15.055 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: server stopped
+18:46:15.055 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT:  done
+18:46:15.065 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: 
+18:46:15.066 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: PostgreSQL init process complete; ready for start up.
+18:46:15.066 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDOUT: 
+18:46:15.080 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDERR: LOG:  database system was shut down at 2020-05-13 16:46:14 UTC
+18:46:15.092 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDERR: LOG:  autovacuum launcher started
+18:46:15.093 [Test worker] DEBUG org.testcontainers.containers.output.WaitingConsumer - STDERR: LOG:  database system is ready to accept connections
+18:46:15.093 [Test worker] INFO &#x1f433; [postgres:9.6.12] - Container postgres:9.6.12 started in PT6.213171S
+18:46:15.104 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@7e986809 testClass = ProductApplicationTests, testInstance = com.aroussi.product.svc.ProductApplicationTests@146ef789, testMethod = [null], testException = [null], mergedContextConfiguration = [ReactiveWebMergedContextConfiguration@25b98534 testClass = ProductApplicationTests, locations = '{}', classes = '{class com.aroussi.product.svc.ProductApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@427e87e5, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3856036c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@14d82baa, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@71e3704e, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@187b5479, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@add83de5, org.springframework.boot.test.context.SpringBootTestArgs@1], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+18:46:15.119 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.7.RELEASE)
+
+2020-05-13 18:46:15.438  INFO 76456 --- [    Test worker] c.a.product.svc.ProductApplicationTests  : Starting ProductApplicationTests on ROALTP0075 with PID 76456 (started by aroussi in /Users/aroussi/projects/lab/craftsman-boot-project)
+2020-05-13 18:46:15.440  INFO 76456 --- [    Test worker] c.a.product.svc.ProductApplicationTests  : No active profile set, falling back to default profiles: default
+2020-05-13 18:46:16.155  INFO 76456 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-13 18:46:16.337  INFO 76456 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 173ms. Found 1 JPA repository interfaces.
+2020-05-13 18:46:16.935  INFO 76456 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.0.8 by Redgate
+2020-05-13 18:46:16.949  INFO 76456 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-13 18:46:17.034  INFO 76456 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-13 18:46:17.060  INFO 76456 --- [    Test worker] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:postgresql://localhost:32797/panache-db-test (PostgreSQL 9.6)
+2020-05-13 18:46:17.098  INFO 76456 --- [    Test worker] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.012s)
+2020-05-13 18:46:17.117  INFO 76456 --- [    Test worker] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table &quot;public&quot;.&quot;flyway_schema_history&quot; ...
+2020-05-13 18:46:17.153  INFO 76456 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Current version of schema &quot;public&quot;: &lt;&lt; Empty Schema &gt;&gt;
+2020-05-13 18:46:17.162  INFO 76456 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Migrating schema &quot;public&quot; to version 0 - init-db
+2020-05-13 18:46:17.191  INFO 76456 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema &quot;public&quot; (execution time 00:00.050s)
+2020-05-13 18:46:17.303  INFO 76456 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-13 18:46:17.349  INFO 76456 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-05-13 18:46:17.496  INFO 76456 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-13 18:46:17.600  INFO 76456 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-05-13 18:46:18.201  INFO 76456 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-13 18:46:18.208  INFO 76456 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-13 18:46:18.975  INFO 76456 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-13 18:46:19.413  INFO 76456 --- [    Test worker] c.a.product.svc.ProductApplicationTests  : Started ProductApplicationTests in 4.286 seconds (JVM running for 11.614)
+2020-05-13 18:46:19.428  INFO 76456 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@7e986809 testClass = ProductApplicationTests, testInstance = com.aroussi.product.svc.ProductApplicationTests@146ef789, testMethod = testFindProductStartingWith@ProductApplicationTests, testException = [null], mergedContextConfiguration = [ReactiveWebMergedContextConfiguration@25b98534 testClass = ProductApplicationTests, locations = '{}', classes = '{class com.aroussi.product.svc.ProductApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@427e87e5, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3856036c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@14d82baa, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@71e3704e, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@187b5479, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@add83de5, org.springframework.boot.test.context.SpringBootTestArgs@1], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@7af4b70f]; rollback [true]
+2020-05-13 18:46:19.691  INFO 76456 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@7e986809 testClass = ProductApplicationTests, testInstance = com.aroussi.product.svc.ProductApplicationTests@146ef789, testMethod = testFindProductStartingWith@ProductApplicationTests, testException = [null], mergedContextConfiguration = [ReactiveWebMergedContextConfiguration@25b98534 testClass = ProductApplicationTests, locations = '{}', classes = '{class com.aroussi.product.svc.ProductApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@427e87e5, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3856036c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@14d82baa, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@71e3704e, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@187b5479, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@add83de5, org.springframework.boot.test.context.SpringBootTestArgs@1], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.1</a> at May 13, 2020, 6:46:20 PM</p>
+</div>
+</div>
+</body>
+</html>
